@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="2col.master.cs" Inherits="EstateSN.Views.Shared.TwoColumnMaster" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="MainContentPlaceHolder">
+	<div class="column span-18">
+	<asp:ContentPlaceHolder ID="phMain" runat="server">
+	</asp:ContentPlaceHolder>
+	</div>
+	<div class="column span-6 last">
+	<asp:ContentPlaceHolder ID="phSideBar" runat="server">
+	</asp:ContentPlaceHolder>
+	</div>
+</asp:Content>
+
+
+

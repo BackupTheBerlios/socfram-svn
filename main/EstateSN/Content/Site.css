@@ -1,0 +1,124 @@
+﻿.header
+{
+    /*position: relative;*/
+    background: url(/Content/images/header2.gif) #07DC4F repeat-x scroll;
+    
+    margin-bottom:20px;
+    /*display: -moz-inline-box;*/
+    display: inline-block;
+    
+    /*margin-top:20px;*/
+    /*width:98%;*/
+    height: 80px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+body
+{
+	background: #E5E5E5;
+}
+
+
+.header h1
+{
+    font-weight:normal;
+    font-size: 23px;
+    padding-top:12px;
+}
+
+.menu
+{
+    /*position: relative;*/
+    /*background: #46461F;*/
+    height: 47px;
+    padding-left:5px;
+    display: block;
+    float: left;
+}
+
+.menu ul li
+{
+    display: inline;
+    line-height: 52px;
+    padding-left: 3px;
+}
+
+.menu ul li.first
+{
+    border-left: 0px;
+}
+
+.menu ul li a
+{
+    background-color: transparent;
+    padding: 6px 12px 8px 12px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu ul li a:hover
+{
+    background: #fff;
+    color: #4A4A24;
+    text-decoration: none;
+}
+
+.login
+{
+	/*width: 200px;*/
+	float: right;
+	margin-right:20px;
+	
+}
+
+.login a
+{
+	color: #fff;
+}
+
+.login a:hover
+{
+    background: #fff;
+    color: #4A4A24;
+    text-decoration: none;
+}
+
+.sidebar
+{
+	/*background: #ccc;*/
+	padding: 10px;
+}
+
+.page
+{
+	background: url(/Content/images/rightshade.gif) #fff repeat-y right 50%;
+}
+
+.pagefooter
+{
+	background: url(/Content/images/bottomshade.gif) no-repeat right top;	
+	min-height: 10px;
+}
+
+.pageheader
+{
+	background: url(/Content/images/pageheader2.gif) repeat-x center bottom;
+	
+	margin-right: 8px;
+	padding: 15px 15px 1px 15px;
+}
+
+.colgroup
+{
+	margin-top: 10px;
+	padding: 3px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	/*border-bottom: solid 2px #7B9F00;*/
+	background: Aqua;
+}
+
+
+

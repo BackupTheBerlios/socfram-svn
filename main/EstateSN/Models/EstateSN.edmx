@@ -1,0 +1,1210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="CopyToOutputDirectory" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <edmx:ReverseEngineer />
+    <edmx:Diagrams ><Diagram Name="EstateSN"><EntityTypeShape EntityType="estatesnModel.Country" PointX="0.625" PointY="7.75" Width="1.5" Height="1.5923063151041683" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.Region" PointX="3" PointY="7.75" Width="1.5" Height="1.5923063151041683" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.CommentVoting" PointX="8.625" PointY="8.25" Width="1.5" Height="1.7566536458333335" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.Group" PointX="11.875" PointY="1.5" Width="1.5" Height="2.4140429687499996" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.GroupPost" PointX="11.875" PointY="5.375" Width="1.5" Height="2.4140429687499996" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.GroupSubscription" PointX="5.125" PointY="1.625" Width="1.5" Height="1.5923063151041683" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.GroupVoting" PointX="8.625" PointY="3.375" Width="1.5" Height="1.7566536458333317" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.PostComment" PointX="11.875" PointY="9.375" Width="1.5" Height="2.4140429687499996" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.PostVoting" PointX="8.625" PointY="5.875" Width="1.5" Height="1.7566536458333335" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.SiteRole" PointX="2" PointY="3.25" Width="1.5" Height="1.5923063151041674" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.SiteUser" PointX="5.25" PointY="6.125" Width="1.5" Height="5.2079475911458335" IsExpanded="true" /><EntityTypeShape EntityType="estatesnModel.Tag" PointX="15.375" PointY="2.875" Width="1.5" Height="1.5923063151041663" IsExpanded="true" /><AssociationConnector Association="estatesnModel.FK_C_City_C_Country" ManuallyRouted="false"><ConnectorPoint PointX="2.125" PointY="8.5461531575520837" /><ConnectorPoint PointX="3" PointY="8.5461531575520837" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_SiteUser_C_Country" ManuallyRouted="false"><ConnectorPoint PointX="1.375" PointY="9.3423063151041674" /><ConnectorPoint PointX="1.375" PointY="10.337627453124998" /><ConnectorPoint PointX="5.25" PointY="10.337627453124998" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_SiteUser_C_City" ManuallyRouted="false"><ConnectorPoint PointX="4.5" PointY="8.5461531575520837" /><ConnectorPoint PointX="5.25" PointY="8.5461531575520837" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_CommentVoting_BlogComment" ManuallyRouted="false"><ConnectorPoint PointX="11.875" PointY="9.6908268229166659" /><ConnectorPoint PointX="10.125" PointY="9.6908268229166659" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_CommentVoting_SiteUser" ManuallyRouted="false"><ConnectorPoint PointX="6.75" PointY="9.1283268229166659" /><ConnectorPoint PointX="8.625" PointY="9.1283268229166659" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_BlogPost_Blog" ManuallyRouted="false"><ConnectorPoint PointX="12.625" PointY="3.9140429687499996" /><ConnectorPoint PointX="12.625" PointY="5.375" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_BlogSubscription_Blog" ManuallyRouted="false"><ConnectorPoint PointX="11.875" PointY="2.4211531575520842" /><ConnectorPoint PointX="6.625" PointY="2.4211531575520842" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_GroupVoting_Group" ManuallyRouted="false"><ConnectorPoint PointX="11.875" PointY="3.644521484375" /><ConnectorPoint PointX="10.125" PointY="3.644521484375" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_BlogComment_BlogPost" ManuallyRouted="false"><ConnectorPoint PointX="12.625" PointY="7.78904296875" /><ConnectorPoint PointX="12.625" PointY="9.375" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_PostVoting_GroupPost" ManuallyRouted="false"><ConnectorPoint PointX="11.875" PointY="6.7533268229166667" /><ConnectorPoint PointX="10.125" PointY="6.7533268229166667" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_BlogSubscription_SiteUser" ManuallyRouted="false"><ConnectorPoint PointX="5.8046884374999994" PointY="6.125" /><ConnectorPoint PointX="5.8046884374999994" PointY="3.2173063151041683" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_GroupVoting_SiteUser" ManuallyRouted="false"><ConnectorPoint PointX="6.30859671875" PointY="6.125" /><ConnectorPoint PointX="6.30859671875" PointY="4.2533268229166659" /><ConnectorPoint PointX="8.625" PointY="4.2533268229166659" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_BlogComment_BlogComment" ManuallyRouted="false"><ConnectorPoint PointX="12.406923076923077" PointY="11.78904296875" /><ConnectorPoint PointX="12.406923076923077" PointY="12.03904296875" /><ConnectorPoint PointX="12.853461538461538" PointY="12.03904296875" /><ConnectorPoint PointX="12.853461538461538" PointY="11.78904296875" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_BlogComment_SiteUser" ManuallyRouted="false"><ConnectorPoint PointX="6.75" PointY="10.701050618489582" /><ConnectorPoint PointX="11.875" PointY="10.701050618489582" /></AssociationConnector><AssociationConnector Association="estatesnModel.FK_PostVoting_SiteUser" ManuallyRouted="false"><ConnectorPoint PointX="6.75" PointY="6.8783268229166667" /><ConnectorPoint PointX="8.625" PointY="6.8783268229166667" /></AssociationConnector><AssociationConnector Association="estatesnModel.InviteSiteUser" ManuallyRouted="false"><ConnectorPoint PointX="5.595" PointY="11.332947591145834" /><ConnectorPoint PointX="5.595" PointY="11.582947591145832" /><ConnectorPoint PointX="5.8546153846153848" PointY="11.582947591145832" /><ConnectorPoint PointX="5.8546153846153848" PointY="11.332947591145834" /></AssociationConnector><AssociationConnector Association="estatesnModel.Friend" ManuallyRouted="false"><ConnectorPoint PointX="6.1142307692307689" PointY="11.332947591145834" /><ConnectorPoint PointX="6.1142307692307689" PointY="11.582947591145832" /><ConnectorPoint PointX="6.3738461538461539" PointY="11.582947591145832" /><ConnectorPoint PointX="6.3738461538461539" PointY="11.332947591145834" /></AssociationConnector><AssociationConnector Association="estatesnModel.GroupTag" ManuallyRouted="false"><ConnectorPoint PointX="13.375" PointY="3.394521484375" /><ConnectorPoint PointX="15.375" PointY="3.394521484375" /></AssociationConnector><AssociationConnector Association="estatesnModel.PostTag" ManuallyRouted="false"><ConnectorPoint PointX="13.375" PointY="6.582021484375" /><ConnectorPoint PointX="16.125" PointY="6.582021484375" /><ConnectorPoint PointX="16.125" PointY="4.4673063151041665" /></AssociationConnector><AssociationConnector Association="estatesnModel.UserRole" ManuallyRouted="false"><ConnectorPoint PointX="2.5625" PointY="4.8423063151041674" /><ConnectorPoint PointX="2.5625" PointY="6.90625" /><ConnectorPoint PointX="5.25" PointY="6.90625" /></AssociationConnector></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+  <edmx:Runtime>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="estatesnModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="estatesnEntities">
+          <EntitySet Name="C_Country" EntityType="estatesnModel.Country" />
+          <EntitySet Name="C_Region" EntityType="estatesnModel.Region" />
+          <EntitySet Name="CommentVoting" EntityType="estatesnModel.CommentVoting" />
+          <EntitySet Name="Group" EntityType="estatesnModel.Group" />
+          <EntitySet Name="GroupPost" EntityType="estatesnModel.GroupPost" />
+          <EntitySet Name="GroupSubscription" EntityType="estatesnModel.GroupSubscription" />
+          <EntitySet Name="GroupVoting" EntityType="estatesnModel.GroupVoting" />
+          <EntitySet Name="PostComment" EntityType="estatesnModel.PostComment" />
+          <EntitySet Name="PostVoting" EntityType="estatesnModel.PostVoting" />
+          <EntitySet Name="SiteRole" EntityType="estatesnModel.SiteRole" />
+          <EntitySet Name="SiteUser" EntityType="estatesnModel.SiteUser" />
+          <EntitySet Name="Tag" EntityType="estatesnModel.Tag" />
+          <AssociationSet Name="FK_C_City_C_Country" Association="estatesnModel.FK_C_City_C_Country">
+            <End Role="C_Country" EntitySet="C_Country" />
+            <End Role="C_Region" EntitySet="C_Region" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteUser_C_Country" Association="estatesnModel.FK_SiteUser_C_Country">
+            <End Role="C_Country" EntitySet="C_Country" />
+            <End Role="SiteUser" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteUser_C_City" Association="estatesnModel.FK_SiteUser_C_City">
+            <End Role="C_Region" EntitySet="C_Region" />
+            <End Role="SiteUser" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentVoting_BlogComment" Association="estatesnModel.FK_CommentVoting_BlogComment">
+            <End Role="PostComment" EntitySet="PostComment" />
+            <End Role="CommentVoting" EntitySet="CommentVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentVoting_SiteUser" Association="estatesnModel.FK_CommentVoting_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="CommentVoting" EntitySet="CommentVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogPost_Blog" Association="estatesnModel.FK_BlogPost_Blog">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupPost" EntitySet="GroupPost" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSubscription_Blog" Association="estatesnModel.FK_BlogSubscription_Blog">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupSubscription" EntitySet="GroupSubscription" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupVoting_Group" Association="estatesnModel.FK_GroupVoting_Group">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupVoting" EntitySet="GroupVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogComment_BlogPost" Association="estatesnModel.FK_BlogComment_BlogPost">
+            <End Role="GroupPost" EntitySet="GroupPost" />
+            <End Role="PostComment" EntitySet="PostComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PostVoting_GroupPost" Association="estatesnModel.FK_PostVoting_GroupPost">
+            <End Role="GroupPost" EntitySet="GroupPost" />
+            <End Role="PostVoting" EntitySet="PostVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSubscription_SiteUser" Association="estatesnModel.FK_BlogSubscription_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="GroupSubscription" EntitySet="GroupSubscription" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupVoting_SiteUser" Association="estatesnModel.FK_GroupVoting_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="GroupVoting" EntitySet="GroupVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogComment_BlogComment" Association="estatesnModel.FK_BlogComment_BlogComment">
+            <End Role="PostComment" EntitySet="PostComment" />
+            <End Role="PostComment1" EntitySet="PostComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogComment_SiteUser" Association="estatesnModel.FK_BlogComment_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="PostComment" EntitySet="PostComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PostVoting_SiteUser" Association="estatesnModel.FK_PostVoting_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="PostVoting" EntitySet="PostVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteUser_SiteUser" Association="estatesnModel.InviteSiteUser">
+            <End Role="InviteSiteUser" EntitySet="SiteUser" />
+            <End Role="InvitedSiteUsers" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="Friend" Association="estatesnModel.Friend">
+            <End Role="FriendSiteUser" EntitySet="SiteUser" />
+            <End Role="FriendOwnerSiteUser" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="GroupTag" Association="estatesnModel.GroupTag">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="Tag" EntitySet="Tag" />
+          </AssociationSet>
+          <AssociationSet Name="PostTag" Association="estatesnModel.PostTag">
+            <End Role="GroupPost" EntitySet="GroupPost" />
+            <End Role="Tag" EntitySet="Tag" />
+          </AssociationSet>
+          <AssociationSet Name="UserRole" Association="estatesnModel.UserRole">
+            <End Role="SiteRole" EntitySet="SiteRole" />
+            <End Role="SiteUser" EntitySet="SiteUser" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Country">
+          <Key>
+            <PropertyRef Name="CountryID" />
+          </Key>
+          <Property Name="CountryID" Type="Int32" Nullable="false" />
+          <Property Name="CountryName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="Regions" Relationship="estatesnModel.FK_C_City_C_Country" FromRole="C_Country" ToRole="C_Region" />
+          <NavigationProperty Name="SiteUsers" Relationship="estatesnModel.FK_SiteUser_C_Country" FromRole="C_Country" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="Region">
+          <Key>
+            <PropertyRef Name="RegionID" />
+          </Key>
+          <Property Name="RegionID" Type="Int32" Nullable="false" />
+          <Property Name="RegionName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="Country" Relationship="estatesnModel.FK_C_City_C_Country" FromRole="C_Region" ToRole="C_Country" />
+          <NavigationProperty Name="SiteUsers" Relationship="estatesnModel.FK_SiteUser_C_City" FromRole="C_Region" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="CommentVoting">
+          <Key>
+            <PropertyRef Name="CommentVotingID" />
+          </Key>
+          <Property Name="CommentVotingID" Type="Int32" Nullable="false" />
+          <Property Name="Rating" Type="Int32" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="PostComment" Relationship="estatesnModel.FK_CommentVoting_BlogComment" FromRole="CommentVoting" ToRole="PostComment" />
+          <NavigationProperty Name="SiteUser" Relationship="estatesnModel.FK_CommentVoting_SiteUser" FromRole="CommentVoting" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="GroupID" />
+          </Key>
+          <Property Name="GroupID" Type="Int32" Nullable="false" />
+          <Property Name="GroupRating" Type="Int32" Nullable="false" />
+          <Property Name="GroupName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <Property Name="GroupDescription" Type="String" Nullable="false" MaxLength="2147483647" Unicode="false" />
+          <Property Name="GroupType" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="true" />
+          <NavigationProperty Name="GroupPosts" Relationship="estatesnModel.FK_BlogPost_Blog" FromRole="Group" ToRole="GroupPost" />
+          <NavigationProperty Name="GroupSubscriptions" Relationship="estatesnModel.FK_BlogSubscription_Blog" FromRole="Group" ToRole="GroupSubscription" />
+          <NavigationProperty Name="GroupVotings" Relationship="estatesnModel.FK_GroupVoting_Group" FromRole="Group" ToRole="GroupVoting" />
+          <NavigationProperty Name="Tags" Relationship="estatesnModel.GroupTag" FromRole="Group" ToRole="Tag" />
+        </EntityType>
+        <EntityType Name="GroupPost">
+          <Key>
+            <PropertyRef Name="PostID" />
+          </Key>
+          <Property Name="PostID" Type="Int32" Nullable="false" />
+          <Property Name="PostContent" Type="String" Nullable="false" MaxLength="2147483647" Unicode="false" />
+          <Property Name="PostRating" Type="Int32" Nullable="false" />
+          <Property Name="PostTitle" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <Property Name="PostDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Group" Relationship="estatesnModel.FK_BlogPost_Blog" FromRole="GroupPost" ToRole="Group" />
+          <NavigationProperty Name="PostComments" Relationship="estatesnModel.FK_BlogComment_BlogPost" FromRole="GroupPost" ToRole="PostComment" />
+          <NavigationProperty Name="PostVotings" Relationship="estatesnModel.FK_PostVoting_GroupPost" FromRole="GroupPost" ToRole="PostVoting" />
+          <NavigationProperty Name="Tags" Relationship="estatesnModel.PostTag" FromRole="GroupPost" ToRole="Tag" />
+        </EntityType>
+        <EntityType Name="GroupSubscription">
+          <Key>
+            <PropertyRef Name="SubscriptionID" />
+          </Key>
+          <Property Name="RoleType" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="SubscriptionID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Group" Relationship="estatesnModel.FK_BlogSubscription_Blog" FromRole="GroupSubscription" ToRole="Group" />
+          <NavigationProperty Name="SiteUser" Relationship="estatesnModel.FK_BlogSubscription_SiteUser" FromRole="GroupSubscription" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="GroupVoting">
+          <Key>
+            <PropertyRef Name="GroupVotingID" />
+          </Key>
+          <Property Name="GroupVotingID" Type="Int32" Nullable="false" />
+          <Property Name="Rating" Type="Int32" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="Group" Relationship="estatesnModel.FK_GroupVoting_Group" FromRole="GroupVoting" ToRole="Group" />
+          <NavigationProperty Name="SiteUser" Relationship="estatesnModel.FK_GroupVoting_SiteUser" FromRole="GroupVoting" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="PostComment">
+          <Key>
+            <PropertyRef Name="CommentID" />
+          </Key>
+          <Property Name="CommentID" Type="Int32" Nullable="false" />
+          <Property Name="CommentRating" Type="Int32" Nullable="false" />
+          <Property Name="CommentContent" Type="String" Nullable="false" MaxLength="2147483647" Unicode="false" />
+          <Property Name="CommentDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="CommentVotings" Relationship="estatesnModel.FK_CommentVoting_BlogComment" FromRole="PostComment" ToRole="CommentVoting" />
+          <NavigationProperty Name="GroupPost" Relationship="estatesnModel.FK_BlogComment_BlogPost" FromRole="PostComment" ToRole="GroupPost" />
+          <NavigationProperty Name="ParentComment" Relationship="estatesnModel.FK_BlogComment_BlogComment" FromRole="PostComment" ToRole="PostComment1" />
+          <NavigationProperty Name="ChildComments" Relationship="estatesnModel.FK_BlogComment_BlogComment" FromRole="PostComment1" ToRole="PostComment" />
+          <NavigationProperty Name="SiteUser" Relationship="estatesnModel.FK_BlogComment_SiteUser" FromRole="PostComment" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="PostVoting">
+          <Key>
+            <PropertyRef Name="PostVotingID" />
+          </Key>
+          <Property Name="PostVotingID" Type="Int32" Nullable="false" />
+          <Property Name="Rating" Type="Int32" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="GroupPost" Relationship="estatesnModel.FK_PostVoting_GroupPost" FromRole="PostVoting" ToRole="GroupPost" />
+          <NavigationProperty Name="SiteUser" Relationship="estatesnModel.FK_PostVoting_SiteUser" FromRole="PostVoting" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="SiteRole">
+          <Key>
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="RoleID" Type="Int32" Nullable="false" />
+          <Property Name="RoleName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <Property Name="RoleRefName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="SiteUsers" Relationship="estatesnModel.UserRole" FromRole="SiteRole" ToRole="SiteUser" />
+        </EntityType>
+        <EntityType Name="SiteUser">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <Property Name="FIO" Type="String" MaxLength="255" Unicode="false" />
+          <Property Name="EMail" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <Property Name="Avatar" Type="Binary" MaxLength="2147483647" />
+          <Property Name="Photo" Type="Binary" MaxLength="2147483647" />
+          <Property Name="Birthday" Type="DateTime" />
+          <Property Name="AddInfo" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="InvitesCount" Type="Int32" Nullable="false" />
+          <Property Name="WorkPhone" Type="String" MaxLength="255" Unicode="false" />
+          <Property Name="MobilePhone" Type="String" MaxLength="255" Unicode="false" />
+          <Property Name="Post" Type="String" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="Country" Relationship="estatesnModel.FK_SiteUser_C_Country" FromRole="SiteUser" ToRole="C_Country" />
+          <NavigationProperty Name="Region" Relationship="estatesnModel.FK_SiteUser_C_City" FromRole="SiteUser" ToRole="C_Region" />
+          <NavigationProperty Name="CommentVotings" Relationship="estatesnModel.FK_CommentVoting_SiteUser" FromRole="SiteUser" ToRole="CommentVoting" />
+          <NavigationProperty Name="GroupSubscriptions" Relationship="estatesnModel.FK_BlogSubscription_SiteUser" FromRole="SiteUser" ToRole="GroupSubscription" />
+          <NavigationProperty Name="GroupVotings" Relationship="estatesnModel.FK_GroupVoting_SiteUser" FromRole="SiteUser" ToRole="GroupVoting" />
+          <NavigationProperty Name="PostComments" Relationship="estatesnModel.FK_BlogComment_SiteUser" FromRole="SiteUser" ToRole="PostComment" />
+          <NavigationProperty Name="PostVotings" Relationship="estatesnModel.FK_PostVoting_SiteUser" FromRole="SiteUser" ToRole="PostVoting" />
+          <NavigationProperty Name="InvitedSiteUsers" Relationship="estatesnModel.InviteSiteUser" FromRole="InviteSiteUser" ToRole="InvitedSiteUsers" />
+          <NavigationProperty Name="InviteSiteUser" Relationship="estatesnModel.InviteSiteUser" FromRole="InvitedSiteUsers" ToRole="InviteSiteUser" />
+          <NavigationProperty Name="FriendOwners" Relationship="estatesnModel.Friend" FromRole="FriendSiteUser" ToRole="FriendOwnerSiteUser" />
+          <NavigationProperty Name="Friends" Relationship="estatesnModel.Friend" FromRole="FriendOwnerSiteUser" ToRole="FriendSiteUser" />
+          <NavigationProperty Name="SiteRoles" Relationship="estatesnModel.UserRole" FromRole="SiteUser" ToRole="SiteRole" />
+        <Property Name="WebSite" Type="String" Nullable="true" MaxLength="255" Unicode="false" FixedLength="false" /></EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="TagID" />
+          </Key>
+          <Property Name="TagID" Type="Int32" Nullable="false" />
+          <Property Name="TagName" Type="String" Nullable="false" MaxLength="255" Unicode="false" />
+          <NavigationProperty Name="Groups" Relationship="estatesnModel.GroupTag" FromRole="Tag" ToRole="Group" />
+          <NavigationProperty Name="GroupPosts" Relationship="estatesnModel.PostTag" FromRole="Tag" ToRole="GroupPost" />
+        </EntityType>
+        <Association Name="FK_C_City_C_Country">
+          <End Role="C_Country" Type="estatesnModel.Country" Multiplicity="1" />
+          <End Role="C_Region" Type="estatesnModel.Region" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_SiteUser_C_Country">
+          <End Role="C_Country" Type="estatesnModel.Country" Multiplicity="0..1" />
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_SiteUser_C_City">
+          <End Role="C_Region" Type="estatesnModel.Region" Multiplicity="0..1" />
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_CommentVoting_BlogComment">
+          <End Role="PostComment" Type="estatesnModel.PostComment" Multiplicity="1" />
+          <End Role="CommentVoting" Type="estatesnModel.CommentVoting" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_CommentVoting_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="1" />
+          <End Role="CommentVoting" Type="estatesnModel.CommentVoting" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BlogPost_Blog">
+          <End Role="Group" Type="estatesnModel.Group" Multiplicity="1" />
+          <End Role="GroupPost" Type="estatesnModel.GroupPost" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BlogSubscription_Blog">
+          <End Role="Group" Type="estatesnModel.Group" Multiplicity="1" />
+          <End Role="GroupSubscription" Type="estatesnModel.GroupSubscription" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_GroupVoting_Group">
+          <End Role="Group" Type="estatesnModel.Group" Multiplicity="1" />
+          <End Role="GroupVoting" Type="estatesnModel.GroupVoting" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BlogComment_BlogPost">
+          <End Role="GroupPost" Type="estatesnModel.GroupPost" Multiplicity="1" />
+          <End Role="PostComment" Type="estatesnModel.PostComment" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_PostVoting_GroupPost">
+          <End Role="GroupPost" Type="estatesnModel.GroupPost" Multiplicity="1" />
+          <End Role="PostVoting" Type="estatesnModel.PostVoting" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BlogSubscription_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="1" />
+          <End Role="GroupSubscription" Type="estatesnModel.GroupSubscription" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_GroupVoting_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="1" />
+          <End Role="GroupVoting" Type="estatesnModel.GroupVoting" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BlogComment_BlogComment">
+          <End Role="PostComment" Type="estatesnModel.PostComment" Multiplicity="0..1" />
+          <End Role="PostComment1" Type="estatesnModel.PostComment" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BlogComment_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="1" />
+          <End Role="PostComment" Type="estatesnModel.PostComment" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_PostVoting_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="1" />
+          <End Role="PostVoting" Type="estatesnModel.PostVoting" Multiplicity="*" />
+        </Association>
+        <Association Name="InviteSiteUser">
+          <End Role="InviteSiteUser" Type="estatesnModel.SiteUser" Multiplicity="0..1" />
+          <End Role="InvitedSiteUsers" Type="estatesnModel.SiteUser" Multiplicity="*" />
+        </Association>
+        <Association Name="Friend">
+          <End Role="FriendSiteUser" Type="estatesnModel.SiteUser" Multiplicity="*" />
+          <End Role="FriendOwnerSiteUser" Type="estatesnModel.SiteUser" Multiplicity="*" />
+        </Association>
+        <Association Name="GroupTag">
+          <End Role="Group" Type="estatesnModel.Group" Multiplicity="*" />
+          <End Role="Tag" Type="estatesnModel.Tag" Multiplicity="*" />
+        </Association>
+        <Association Name="PostTag">
+          <End Role="GroupPost" Type="estatesnModel.GroupPost" Multiplicity="*" />
+          <End Role="Tag" Type="estatesnModel.Tag" Multiplicity="*" />
+        </Association>
+        <Association Name="UserRole">
+          <End Role="SiteRole" Type="estatesnModel.SiteRole" Multiplicity="*" />
+          <End Role="SiteUser" Type="estatesnModel.SiteUser" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="estatesnModel.Store" Alias="Self" ProviderManifestToken="09.00.3042" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="dbo">
+          <EntitySet Name="C_Country" EntityType="estatesnModel.Store.C_Country" />
+          <EntitySet Name="C_Region" EntityType="estatesnModel.Store.C_Region" />
+          <EntitySet Name="CommentVoting" EntityType="estatesnModel.Store.CommentVoting" />
+          <EntitySet Name="Friend" EntityType="estatesnModel.Store.Friend" />
+          <EntitySet Name="Group" EntityType="estatesnModel.Store.Group" />
+          <EntitySet Name="GroupPost" EntityType="estatesnModel.Store.GroupPost" />
+          <EntitySet Name="GroupSubscription" EntityType="estatesnModel.Store.GroupSubscription" />
+          <EntitySet Name="GroupTag" EntityType="estatesnModel.Store.GroupTag" />
+          <EntitySet Name="GroupVoting" EntityType="estatesnModel.Store.GroupVoting" />
+          <EntitySet Name="PostComment" EntityType="estatesnModel.Store.PostComment" />
+          <EntitySet Name="PostTag" EntityType="estatesnModel.Store.PostTag" />
+          <EntitySet Name="PostVoting" EntityType="estatesnModel.Store.PostVoting" />
+          <EntitySet Name="SiteRole" EntityType="estatesnModel.Store.SiteRole" />
+          <EntitySet Name="SiteUser" EntityType="estatesnModel.Store.SiteUser" />
+          <EntitySet Name="sysdiagrams" EntityType="estatesnModel.Store.sysdiagrams" />
+          <EntitySet Name="Tag" EntityType="estatesnModel.Store.Tag" />
+          <EntitySet Name="UserRole" EntityType="estatesnModel.Store.UserRole" />
+          <AssociationSet Name="FK_BlogComment_BlogComment" Association="estatesnModel.Store.FK_BlogComment_BlogComment">
+            <End Role="PostComment" EntitySet="PostComment" />
+            <End Role="PostComment1" EntitySet="PostComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogComment_BlogPost" Association="estatesnModel.Store.FK_BlogComment_BlogPost">
+            <End Role="GroupPost" EntitySet="GroupPost" />
+            <End Role="PostComment" EntitySet="PostComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogComment_SiteUser" Association="estatesnModel.Store.FK_BlogComment_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="PostComment" EntitySet="PostComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogPost_Blog" Association="estatesnModel.Store.FK_BlogPost_Blog">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupPost" EntitySet="GroupPost" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogPostTag_BlogPost" Association="estatesnModel.Store.FK_BlogPostTag_BlogPost">
+            <End Role="GroupPost" EntitySet="GroupPost" />
+            <End Role="PostTag" EntitySet="PostTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogPostTag_Tag" Association="estatesnModel.Store.FK_BlogPostTag_Tag">
+            <End Role="Tag" EntitySet="Tag" />
+            <End Role="PostTag" EntitySet="PostTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSubscription_Blog" Association="estatesnModel.Store.FK_BlogSubscription_Blog">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupSubscription" EntitySet="GroupSubscription" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSubscription_SiteUser" Association="estatesnModel.Store.FK_BlogSubscription_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="GroupSubscription" EntitySet="GroupSubscription" />
+          </AssociationSet>
+          <AssociationSet Name="FK_C_City_C_Country" Association="estatesnModel.Store.FK_C_City_C_Country">
+            <End Role="C_Country" EntitySet="C_Country" />
+            <End Role="C_Region" EntitySet="C_Region" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentVoting_BlogComment" Association="estatesnModel.Store.FK_CommentVoting_BlogComment">
+            <End Role="PostComment" EntitySet="PostComment" />
+            <End Role="CommentVoting" EntitySet="CommentVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentVoting_SiteUser" Association="estatesnModel.Store.FK_CommentVoting_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="CommentVoting" EntitySet="CommentVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Friend_SiteUser" Association="estatesnModel.Store.FK_Friend_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="Friend" EntitySet="Friend" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Friend_SiteUser1" Association="estatesnModel.Store.FK_Friend_SiteUser1">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="Friend" EntitySet="Friend" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupTag_Group" Association="estatesnModel.Store.FK_GroupTag_Group">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupTag" EntitySet="GroupTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupTag_Tag" Association="estatesnModel.Store.FK_GroupTag_Tag">
+            <End Role="Tag" EntitySet="Tag" />
+            <End Role="GroupTag" EntitySet="GroupTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupVoting_Group" Association="estatesnModel.Store.FK_GroupVoting_Group">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupVoting" EntitySet="GroupVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupVoting_SiteUser" Association="estatesnModel.Store.FK_GroupVoting_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="GroupVoting" EntitySet="GroupVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PostVoting_GroupPost" Association="estatesnModel.Store.FK_PostVoting_GroupPost">
+            <End Role="GroupPost" EntitySet="GroupPost" />
+            <End Role="PostVoting" EntitySet="PostVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PostVoting_SiteUser" Association="estatesnModel.Store.FK_PostVoting_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="PostVoting" EntitySet="PostVoting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteUser_C_City" Association="estatesnModel.Store.FK_SiteUser_C_City">
+            <End Role="C_Region" EntitySet="C_Region" />
+            <End Role="SiteUser" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteUser_C_Country" Association="estatesnModel.Store.FK_SiteUser_C_Country">
+            <End Role="C_Country" EntitySet="C_Country" />
+            <End Role="SiteUser" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteUser_SiteUser" Association="estatesnModel.Store.FK_SiteUser_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="SiteUser1" EntitySet="SiteUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserRole_SiteRole" Association="estatesnModel.Store.FK_UserRole_SiteRole">
+            <End Role="SiteRole" EntitySet="SiteRole" />
+            <End Role="UserRole" EntitySet="UserRole" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserRole_SiteUser" Association="estatesnModel.Store.FK_UserRole_SiteUser">
+            <End Role="SiteUser" EntitySet="SiteUser" />
+            <End Role="UserRole" EntitySet="UserRole" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="C_Country">
+          <Key>
+            <PropertyRef Name="CountryID" />
+          </Key>
+          <Property Name="CountryID" Type="int" Nullable="false" />
+          <Property Name="CountryName" Type="varchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="C_Region">
+          <Key>
+            <PropertyRef Name="RegionID" />
+          </Key>
+          <Property Name="RegionID" Type="int" Nullable="false" />
+          <Property Name="CountryID" Type="int" Nullable="false" />
+          <Property Name="RegionName" Type="varchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="CommentVoting">
+          <Key>
+            <PropertyRef Name="CommentVotingID" />
+          </Key>
+          <Property Name="CommentVotingID" Type="int" Nullable="false" />
+          <Property Name="CommentID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Rating" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Friend">
+          <Key>
+            <PropertyRef Name="User1ID" />
+            <PropertyRef Name="User2ID" />
+          </Key>
+          <Property Name="User1ID" Type="int" Nullable="false" />
+          <Property Name="User2ID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="GroupID" />
+          </Key>
+          <Property Name="GroupID" Type="int" Nullable="false" />
+          <Property Name="GroupRating" Type="int" Nullable="false" />
+          <Property Name="GroupName" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="GroupDescription" Type="text" Nullable="false" />
+          <Property Name="GroupType" Type="char" Nullable="false" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="GroupPost">
+          <Key>
+            <PropertyRef Name="PostID" />
+          </Key>
+          <Property Name="PostID" Type="int" Nullable="false" />
+          <Property Name="GroupID" Type="int" Nullable="false" />
+          <Property Name="PostContent" Type="text" Nullable="false" />
+          <Property Name="PostRating" Type="int" Nullable="false" />
+          <Property Name="PostTitle" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="PostDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GroupSubscription">
+          <Key>
+            <PropertyRef Name="SubscriptionID" />
+          </Key>
+          <Property Name="GroupID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="RoleType" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="SubscriptionID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GroupTag">
+          <Key>
+            <PropertyRef Name="GroupID" />
+            <PropertyRef Name="TagID" />
+          </Key>
+          <Property Name="GroupID" Type="int" Nullable="false" />
+          <Property Name="TagID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GroupVoting">
+          <Key>
+            <PropertyRef Name="GroupVotingID" />
+          </Key>
+          <Property Name="GroupVotingID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="GroupID" Type="int" Nullable="false" />
+          <Property Name="Rating" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="PostComment">
+          <Key>
+            <PropertyRef Name="CommentID" />
+          </Key>
+          <Property Name="CommentID" Type="int" Nullable="false" />
+          <Property Name="PostID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="CommentRating" Type="int" Nullable="false" />
+          <Property Name="CommentContent" Type="text" Nullable="false" />
+          <Property Name="CommentDate" Type="datetime" Nullable="false" />
+          <Property Name="ParentCommentID" Type="int" />
+        </EntityType>
+        <EntityType Name="PostTag">
+          <Key>
+            <PropertyRef Name="PostID" />
+            <PropertyRef Name="TagID" />
+          </Key>
+          <Property Name="PostID" Type="int" Nullable="false" />
+          <Property Name="TagID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PostVoting">
+          <Key>
+            <PropertyRef Name="PostVotingID" />
+          </Key>
+          <Property Name="PostVotingID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="PostID" Type="int" Nullable="false" />
+          <Property Name="Rating" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SiteRole">
+          <Key>
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="RoleID" Type="int" Nullable="false" />
+          <Property Name="RoleName" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="RoleRefName" Type="varchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SiteUser">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="Password" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="FIO" Type="varchar" MaxLength="255" />
+          <Property Name="CountryID" Type="int" />
+          <Property Name="RegionID" Type="int" />
+          <Property Name="EMail" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="Avatar" Type="image" />
+          <Property Name="Photo" Type="image" />
+          <Property Name="Birthday" Type="datetime" />
+          <Property Name="AddInfo" Type="text" />
+          <Property Name="UserIDInviteFrom" Type="int" />
+          <Property Name="InvitesCount" Type="int" Nullable="false" />
+          <Property Name="WorkPhone" Type="varchar" MaxLength="255" />
+          <Property Name="MobilePhone" Type="varchar" MaxLength="255" />
+          <Property Name="Post" Type="varchar" MaxLength="255" />
+			<Property Name="WebSite" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="TagID" />
+          </Key>
+          <Property Name="TagID" Type="int" Nullable="false" />
+          <Property Name="TagName" Type="varchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="UserRole">
+          <Key>
+            <PropertyRef Name="UserID" />
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="RoleID" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_BlogComment_BlogComment">
+          <End Role="PostComment" Type="estatesnModel.Store.PostComment" Multiplicity="0..1" />
+          <End Role="PostComment1" Type="estatesnModel.Store.PostComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PostComment">
+              <PropertyRef Name="CommentID" />
+            </Principal>
+            <Dependent Role="PostComment1">
+              <PropertyRef Name="ParentCommentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogComment_BlogPost">
+          <End Role="GroupPost" Type="estatesnModel.Store.GroupPost" Multiplicity="1" />
+          <End Role="PostComment" Type="estatesnModel.Store.PostComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GroupPost">
+              <PropertyRef Name="PostID" />
+            </Principal>
+            <Dependent Role="PostComment">
+              <PropertyRef Name="PostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogComment_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="PostComment" Type="estatesnModel.Store.PostComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="PostComment">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogPost_Blog">
+          <End Role="Group" Type="estatesnModel.Store.Group" Multiplicity="1" />
+          <End Role="GroupPost" Type="estatesnModel.Store.GroupPost" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="GroupID" />
+            </Principal>
+            <Dependent Role="GroupPost">
+              <PropertyRef Name="GroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogPostTag_BlogPost">
+          <End Role="GroupPost" Type="estatesnModel.Store.GroupPost" Multiplicity="1" />
+          <End Role="PostTag" Type="estatesnModel.Store.PostTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GroupPost">
+              <PropertyRef Name="PostID" />
+            </Principal>
+            <Dependent Role="PostTag">
+              <PropertyRef Name="PostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogPostTag_Tag">
+          <End Role="Tag" Type="estatesnModel.Store.Tag" Multiplicity="1" />
+          <End Role="PostTag" Type="estatesnModel.Store.PostTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tag">
+              <PropertyRef Name="TagID" />
+            </Principal>
+            <Dependent Role="PostTag">
+              <PropertyRef Name="TagID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSubscription_Blog">
+          <End Role="Group" Type="estatesnModel.Store.Group" Multiplicity="1" />
+          <End Role="GroupSubscription" Type="estatesnModel.Store.GroupSubscription" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="GroupID" />
+            </Principal>
+            <Dependent Role="GroupSubscription">
+              <PropertyRef Name="GroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSubscription_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="GroupSubscription" Type="estatesnModel.Store.GroupSubscription" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="GroupSubscription">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_C_City_C_Country">
+          <End Role="C_Country" Type="estatesnModel.Store.C_Country" Multiplicity="1" />
+          <End Role="C_Region" Type="estatesnModel.Store.C_Region" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Country">
+              <PropertyRef Name="CountryID" />
+            </Principal>
+            <Dependent Role="C_Region">
+              <PropertyRef Name="CountryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CommentVoting_BlogComment">
+          <End Role="PostComment" Type="estatesnModel.Store.PostComment" Multiplicity="1" />
+          <End Role="CommentVoting" Type="estatesnModel.Store.CommentVoting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PostComment">
+              <PropertyRef Name="CommentID" />
+            </Principal>
+            <Dependent Role="CommentVoting">
+              <PropertyRef Name="CommentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CommentVoting_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="CommentVoting" Type="estatesnModel.Store.CommentVoting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="CommentVoting">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Friend_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="Friend" Type="estatesnModel.Store.Friend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Friend">
+              <PropertyRef Name="User1ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Friend_SiteUser1">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="Friend" Type="estatesnModel.Store.Friend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Friend">
+              <PropertyRef Name="User2ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupTag_Group">
+          <End Role="Group" Type="estatesnModel.Store.Group" Multiplicity="1" />
+          <End Role="GroupTag" Type="estatesnModel.Store.GroupTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="GroupID" />
+            </Principal>
+            <Dependent Role="GroupTag">
+              <PropertyRef Name="GroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupTag_Tag">
+          <End Role="Tag" Type="estatesnModel.Store.Tag" Multiplicity="1" />
+          <End Role="GroupTag" Type="estatesnModel.Store.GroupTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tag">
+              <PropertyRef Name="TagID" />
+            </Principal>
+            <Dependent Role="GroupTag">
+              <PropertyRef Name="TagID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupVoting_Group">
+          <End Role="Group" Type="estatesnModel.Store.Group" Multiplicity="1" />
+          <End Role="GroupVoting" Type="estatesnModel.Store.GroupVoting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="GroupID" />
+            </Principal>
+            <Dependent Role="GroupVoting">
+              <PropertyRef Name="GroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupVoting_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="GroupVoting" Type="estatesnModel.Store.GroupVoting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="GroupVoting">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PostVoting_GroupPost">
+          <End Role="GroupPost" Type="estatesnModel.Store.GroupPost" Multiplicity="1" />
+          <End Role="PostVoting" Type="estatesnModel.Store.PostVoting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GroupPost">
+              <PropertyRef Name="PostID" />
+            </Principal>
+            <Dependent Role="PostVoting">
+              <PropertyRef Name="PostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PostVoting_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="PostVoting" Type="estatesnModel.Store.PostVoting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="PostVoting">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiteUser_C_City">
+          <End Role="C_Region" Type="estatesnModel.Store.C_Region" Multiplicity="0..1" />
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Region">
+              <PropertyRef Name="RegionID" />
+            </Principal>
+            <Dependent Role="SiteUser">
+              <PropertyRef Name="RegionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiteUser_C_Country">
+          <End Role="C_Country" Type="estatesnModel.Store.C_Country" Multiplicity="0..1" />
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Country">
+              <PropertyRef Name="CountryID" />
+            </Principal>
+            <Dependent Role="SiteUser">
+              <PropertyRef Name="CountryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiteUser_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="0..1" />
+          <End Role="SiteUser1" Type="estatesnModel.Store.SiteUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="SiteUser1">
+              <PropertyRef Name="UserIDInviteFrom" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserRole_SiteRole">
+          <End Role="SiteRole" Type="estatesnModel.Store.SiteRole" Multiplicity="1" />
+          <End Role="UserRole" Type="estatesnModel.Store.UserRole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteRole">
+              <PropertyRef Name="RoleID" />
+            </Principal>
+            <Dependent Role="UserRole">
+              <PropertyRef Name="RoleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserRole_SiteUser">
+          <End Role="SiteUser" Type="estatesnModel.Store.SiteUser" Multiplicity="1" />
+          <End Role="UserRole" Type="estatesnModel.Store.UserRole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SiteUser">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="UserRole">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="dbo" CdmEntityContainer="estatesnEntities">
+          <EntitySetMapping Name="C_Country">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.Country)">
+              <MappingFragment StoreEntitySet="C_Country">
+                <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+                <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Region">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.Region)">
+              <MappingFragment StoreEntitySet="C_Region">
+                <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+                <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CommentVoting">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.CommentVoting)">
+              <MappingFragment StoreEntitySet="CommentVoting">
+                <ScalarProperty Name="CommentVotingID" ColumnName="CommentVotingID" />
+                <ScalarProperty Name="Rating" ColumnName="Rating" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Group">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.Group)">
+              <MappingFragment StoreEntitySet="Group">
+                <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+                <ScalarProperty Name="GroupRating" ColumnName="GroupRating" />
+                <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+                <ScalarProperty Name="GroupDescription" ColumnName="GroupDescription" />
+                <ScalarProperty Name="GroupType" ColumnName="GroupType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GroupPost">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.GroupPost)">
+              <MappingFragment StoreEntitySet="GroupPost">
+                <ScalarProperty Name="PostID" ColumnName="PostID" />
+                <ScalarProperty Name="PostContent" ColumnName="PostContent" />
+                <ScalarProperty Name="PostRating" ColumnName="PostRating" />
+                <ScalarProperty Name="PostTitle" ColumnName="PostTitle" />
+                <ScalarProperty Name="PostDate" ColumnName="PostDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GroupSubscription">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.GroupSubscription)">
+              <MappingFragment StoreEntitySet="GroupSubscription">
+                <ScalarProperty Name="RoleType" ColumnName="RoleType" />
+                <ScalarProperty Name="SubscriptionID" ColumnName="SubscriptionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GroupVoting">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.GroupVoting)">
+              <MappingFragment StoreEntitySet="GroupVoting">
+                <ScalarProperty Name="GroupVotingID" ColumnName="GroupVotingID" />
+                <ScalarProperty Name="Rating" ColumnName="Rating" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PostComment">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.PostComment)">
+              <MappingFragment StoreEntitySet="PostComment">
+                <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+                <ScalarProperty Name="CommentRating" ColumnName="CommentRating" />
+                <ScalarProperty Name="CommentContent" ColumnName="CommentContent" />
+                <ScalarProperty Name="CommentDate" ColumnName="CommentDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PostVoting">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.PostVoting)">
+              <MappingFragment StoreEntitySet="PostVoting">
+                <ScalarProperty Name="PostVotingID" ColumnName="PostVotingID" />
+                <ScalarProperty Name="Rating" ColumnName="Rating" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SiteRole">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.SiteRole)">
+              <MappingFragment StoreEntitySet="SiteRole">
+                <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+                <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+                <ScalarProperty Name="RoleRefName" ColumnName="RoleRefName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SiteUser">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.SiteUser)">
+              <MappingFragment StoreEntitySet="SiteUser">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="FIO" ColumnName="FIO" />
+                <ScalarProperty Name="EMail" ColumnName="EMail" />
+                <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+                <ScalarProperty Name="Photo" ColumnName="Photo" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="AddInfo" ColumnName="AddInfo" />
+                <ScalarProperty Name="InvitesCount" ColumnName="InvitesCount" />
+                <ScalarProperty Name="WorkPhone" ColumnName="WorkPhone" />
+                <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+                <ScalarProperty Name="Post" ColumnName="Post" />
+				  <ScalarProperty Name="WebSite" ColumnName="WebSite"/>
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tag">
+            <EntityTypeMapping TypeName="IsTypeOf(estatesnModel.Tag)">
+              <MappingFragment StoreEntitySet="Tag">
+                <ScalarProperty Name="TagID" ColumnName="TagID" />
+                <ScalarProperty Name="TagName" ColumnName="TagName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_C_City_C_Country" TypeName="estatesnModel.FK_C_City_C_Country" StoreEntitySet="C_Region">
+            <EndProperty Name="C_Country">
+              <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+            </EndProperty>
+            <EndProperty Name="C_Region">
+              <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_SiteUser_C_Country" TypeName="estatesnModel.FK_SiteUser_C_Country" StoreEntitySet="SiteUser">
+            <EndProperty Name="C_Country">
+              <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+            </EndProperty>
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <Condition ColumnName="CountryID" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_SiteUser_C_City" TypeName="estatesnModel.FK_SiteUser_C_City" StoreEntitySet="SiteUser">
+            <EndProperty Name="C_Region">
+              <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+            </EndProperty>
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <Condition ColumnName="RegionID" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_CommentVoting_BlogComment" TypeName="estatesnModel.FK_CommentVoting_BlogComment" StoreEntitySet="CommentVoting">
+            <EndProperty Name="PostComment">
+              <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+            </EndProperty>
+            <EndProperty Name="CommentVoting">
+              <ScalarProperty Name="CommentVotingID" ColumnName="CommentVotingID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_CommentVoting_SiteUser" TypeName="estatesnModel.FK_CommentVoting_SiteUser" StoreEntitySet="CommentVoting">
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="CommentVoting">
+              <ScalarProperty Name="CommentVotingID" ColumnName="CommentVotingID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BlogPost_Blog" TypeName="estatesnModel.FK_BlogPost_Blog" StoreEntitySet="GroupPost">
+            <EndProperty Name="Group">
+              <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+            </EndProperty>
+            <EndProperty Name="GroupPost">
+              <ScalarProperty Name="PostID" ColumnName="PostID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BlogSubscription_Blog" TypeName="estatesnModel.FK_BlogSubscription_Blog" StoreEntitySet="GroupSubscription">
+            <EndProperty Name="Group">
+              <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+            </EndProperty>
+            <EndProperty Name="GroupSubscription">
+              <ScalarProperty Name="SubscriptionID" ColumnName="SubscriptionID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_GroupVoting_Group" TypeName="estatesnModel.FK_GroupVoting_Group" StoreEntitySet="GroupVoting">
+            <EndProperty Name="Group">
+              <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+            </EndProperty>
+            <EndProperty Name="GroupVoting">
+              <ScalarProperty Name="GroupVotingID" ColumnName="GroupVotingID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BlogComment_BlogPost" TypeName="estatesnModel.FK_BlogComment_BlogPost" StoreEntitySet="PostComment">
+            <EndProperty Name="GroupPost">
+              <ScalarProperty Name="PostID" ColumnName="PostID" />
+            </EndProperty>
+            <EndProperty Name="PostComment">
+              <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_PostVoting_GroupPost" TypeName="estatesnModel.FK_PostVoting_GroupPost" StoreEntitySet="PostVoting">
+            <EndProperty Name="GroupPost">
+              <ScalarProperty Name="PostID" ColumnName="PostID" />
+            </EndProperty>
+            <EndProperty Name="PostVoting">
+              <ScalarProperty Name="PostVotingID" ColumnName="PostVotingID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BlogSubscription_SiteUser" TypeName="estatesnModel.FK_BlogSubscription_SiteUser" StoreEntitySet="GroupSubscription">
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="GroupSubscription">
+              <ScalarProperty Name="SubscriptionID" ColumnName="SubscriptionID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_GroupVoting_SiteUser" TypeName="estatesnModel.FK_GroupVoting_SiteUser" StoreEntitySet="GroupVoting">
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="GroupVoting">
+              <ScalarProperty Name="GroupVotingID" ColumnName="GroupVotingID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BlogComment_BlogComment" TypeName="estatesnModel.FK_BlogComment_BlogComment" StoreEntitySet="PostComment">
+            <EndProperty Name="PostComment">
+              <ScalarProperty Name="CommentID" ColumnName="ParentCommentID" />
+            </EndProperty>
+            <EndProperty Name="PostComment1">
+              <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+            </EndProperty>
+            <Condition ColumnName="ParentCommentID" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BlogComment_SiteUser" TypeName="estatesnModel.FK_BlogComment_SiteUser" StoreEntitySet="PostComment">
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="PostComment">
+              <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_PostVoting_SiteUser" TypeName="estatesnModel.FK_PostVoting_SiteUser" StoreEntitySet="PostVoting">
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="PostVoting">
+              <ScalarProperty Name="PostVotingID" ColumnName="PostVotingID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_SiteUser_SiteUser" TypeName="estatesnModel.InviteSiteUser" StoreEntitySet="SiteUser">
+            <EndProperty Name="InviteSiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserIDInviteFrom" />
+            </EndProperty>
+            <EndProperty Name="InvitedSiteUsers">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+            <Condition ColumnName="UserIDInviteFrom" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="Friend" TypeName="estatesnModel.Friend" StoreEntitySet="Friend">
+            <EndProperty Name="FriendOwnerSiteUser">
+              <ScalarProperty Name="UserID" ColumnName="User1ID" />
+            </EndProperty>
+            <EndProperty Name="FriendSiteUser">
+              <ScalarProperty Name="UserID" ColumnName="User2ID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="GroupTag" TypeName="estatesnModel.GroupTag" StoreEntitySet="GroupTag">
+            <EndProperty Name="Group">
+              <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+            </EndProperty>
+            <EndProperty Name="Tag">
+              <ScalarProperty Name="TagID" ColumnName="TagID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="PostTag" TypeName="estatesnModel.PostTag" StoreEntitySet="PostTag">
+            <EndProperty Name="GroupPost">
+              <ScalarProperty Name="PostID" ColumnName="PostID" />
+            </EndProperty>
+            <EndProperty Name="Tag">
+              <ScalarProperty Name="TagID" ColumnName="TagID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="UserRole" TypeName="estatesnModel.UserRole" StoreEntitySet="UserRole">
+            <EndProperty Name="SiteRole">
+              <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+            </EndProperty>
+            <EndProperty Name="SiteUser">
+              <ScalarProperty Name="UserID" ColumnName="UserID" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+</edmx:Edmx>

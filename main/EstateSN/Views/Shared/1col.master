@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="1col.master.cs" Inherits="EstateSN.Views.Shared._col" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
+	<div class="page">
+		<asp:ContentPlaceHolder ID="phMain" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+	<div class="pagefooter">
+		<asp:ContentPlaceHolder ID="phFooter" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+</asp:Content>
